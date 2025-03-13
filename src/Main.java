@@ -32,5 +32,12 @@ public class Main {
 
         sale1.calculateTotalPrice();
         sale2.calculateTotalPrice();
+
+        try{
+            sale1.getItems().get(10);
+        } catch(IndexOutOfBoundsException e){
+            System.out.println("The ArrayList size is not long enought");
+        }
+
     }
 }

@@ -9,6 +9,10 @@ public class Sale {
         this.items = new ArrayList<Item>();
     }
 
+    public ArrayList<Item> getItems(){
+        return this.items;
+    }
+
     public void setItems(Item item) {
         this.items.add(item);
     }

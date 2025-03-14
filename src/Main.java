@@ -19,7 +19,7 @@ public class Main {
         try{
             sale1.getItems().get(10);
         } catch(IndexOutOfBoundsException e){
-            System.out.println("The ArrayList size is not long enought");
+            System.out.println("Exception caught!! The ArrayList size is not long enought");
         }
 
     }

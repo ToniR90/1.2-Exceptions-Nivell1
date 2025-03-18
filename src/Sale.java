@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class Sale {
 
     private ArrayList<Item> items;
-    private int totalPrice;
 
     public Sale(){
         this.items = new ArrayList<Item>();
@@ -28,7 +27,5 @@ public class Sale {
         }else{
             System.out.println(new EmptySaleException().getMessage());
         }
-
-
     }
 }

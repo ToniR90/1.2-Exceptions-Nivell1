@@ -25,7 +25,7 @@ public class Sale {
             }
             System.out.println("Total price of the sale is " + total + " €");
         }else{
-            System.out.println(new EmptySaleException().getMessage());
+            throw new EmptySaleException();
         }
     }
 }
